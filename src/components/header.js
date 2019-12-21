@@ -3,11 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `white`,
-    }}
-  >
+  <header>
     <div
       style={{
         margin: `0 auto`,
