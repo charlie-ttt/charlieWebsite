@@ -1,0 +1,14 @@
+.eachProject {
+  color: #2d3748;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.projectTitle {
+  font-weight: bold;
+}
+.dateStamp {
+  color: #5f6c80;
+  font-size: 0.8em;
+  padding-top: 0.2rem;
+  padding-bottom: 0.4rem;
+}

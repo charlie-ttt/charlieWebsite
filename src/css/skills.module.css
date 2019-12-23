@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.eachColumn {
+  color: #2d3748;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 140px;
+  margin-right: 20px;
+}
+
+.columnTextContainer {
+  margin-bottom: 0.3em;
+}
+
+.columnText {
+  font-weight: bold;
+}
+
+.oneSkill {
+  color: #5f6c80;
+  font-size: 0.9em;
+}

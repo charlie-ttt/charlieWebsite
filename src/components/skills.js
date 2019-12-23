@@ -1,100 +1,101 @@
 import React from "react"
-import { useMediaQuery } from "react-responsive"
+// import { useMediaQuery } from "react-responsive"
+import skillsStyles from "../css/skills.module.css"
 
-const Desktop = ({ children }) => {
-  const isDesktop = useMediaQuery({ minWidth: 701 })
-  return isDesktop ? children : null
-}
-const Mobile = ({ children }) => {
-  const isMobile = useMediaQuery({ minWidth: 0, maxWidth: 700 })
-  return isMobile ? children : null
-}
+// const Desktop = ({ children }) => {
+//   const isDesktop = useMediaQuery({ minWidth: 701 })
+//   return isDesktop ? children : null
+// }
+// const Mobile = ({ children }) => {
+//   const isMobile = useMediaQuery({ minWidth: 0, maxWidth: 700 })
+//   return isMobile ? children : null
+// }
 
 const Skills = () => {
   return (
     <>
       <h3>Skills</h3>
-      <div style={styles.container}>
-        <div style={styles.eachColumn}>
-          <p style={styles.columnTextContainer}>
-            <span style={styles.columnText}>LANGUAGES</span>
+      <div className={skillsStyles.container}>
+        <div className={skillsStyles.eachColumn}>
+          <p className={skillsStyles.columnTextContainer}>
+            <span className={skillsStyles.columnText}>LANGUAGES</span>
           </p>
-          <p style={styles.oneSkill}>JavaScript (ES6)</p>
-          <p style={styles.oneSkill}>HTML</p>
-          <p style={styles.oneSkill}>CSS</p>
-          <p style={styles.oneSkill}>SQL</p>
+          <p className={skillsStyles.oneSkill}>JavaScript (ES6)</p>
+          <p className={skillsStyles.oneSkill}>HTML</p>
+          <p className={skillsStyles.oneSkill}>CSS</p>
+          <p className={skillsStyles.oneSkill}>SQL</p>
         </div>
-        <div style={styles.eachColumn}>
-          <p style={styles.columnTextContainer}>
-            <span style={styles.columnText}>FRAMEWORKS</span>
+        <div className={skillsStyles.eachColumn}>
+          <p className={skillsStyles.columnTextContainer}>
+            <span className={skillsStyles.columnText}>FRAMEWORKS</span>
           </p>
-          <p style={styles.oneSkill}>React</p>
-          <p style={styles.oneSkill}>Redux</p>
-          <p style={styles.oneSkill}>Node.js</p>
-          <p style={styles.oneSkill}>Express.js</p>
-          <p style={styles.oneSkill}>Socket.IO</p>
-          <p style={styles.oneSkill}>Sequelize</p>
-          <p style={styles.oneSkill}>PostgreSQL</p>
-          <p style={styles.oneSkill}>React Native</p>
-          <p style={styles.oneSkill}>Gatsby JS</p>
-          <p style={styles.oneSkill}>PixiJS</p>
+          <p className={skillsStyles.oneSkill}>React</p>
+          <p className={skillsStyles.oneSkill}>Redux</p>
+          <p className={skillsStyles.oneSkill}>Node.js</p>
+          <p className={skillsStyles.oneSkill}>Express.js</p>
+          <p className={skillsStyles.oneSkill}>Socket.IO</p>
+          <p className={skillsStyles.oneSkill}>Sequelize</p>
+          <p className={skillsStyles.oneSkill}>PostgreSQL</p>
+          <p className={skillsStyles.oneSkill}>React Native</p>
+          <p className={skillsStyles.oneSkill}>Gatsby JS</p>
+          <p className={skillsStyles.oneSkill}>PixiJS</p>
         </div>
-        <div style={styles.eachColumn}>
-          <p style={styles.columnTextContainer}>
-            <span style={styles.columnText}>TOOLS</span>
+        <div className={skillsStyles.eachColumn}>
+          <p className={skillsStyles.columnTextContainer}>
+            <span className={skillsStyles.columnText}>TOOLS</span>
           </p>
-          <p style={styles.oneSkill}>Git & Github</p>
-          <p style={styles.oneSkill}>Postman</p>
-          <p style={styles.oneSkill}>Bootstrap</p>
-          <p style={styles.oneSkill}>React-Bootstrap</p>
-          <p style={styles.oneSkill}>Semantic UI</p>
-          <p style={styles.oneSkill}>NativeBase</p>
+          <p className={skillsStyles.oneSkill}>Git & Github</p>
+          <p className={skillsStyles.oneSkill}>Postman</p>
+          <p className={skillsStyles.oneSkill}>Bootstrap</p>
+          <p className={skillsStyles.oneSkill}>React-Bootstrap</p>
+          <p className={skillsStyles.oneSkill}>Semantic UI</p>
+          <p className={skillsStyles.oneSkill}>NativeBase</p>
         </div>
-        <div style={styles.eachColumn}>
-          <p style={styles.columnTextContainer}>
-            <span style={styles.columnText}>Collaboration</span>
+        <div className={skillsStyles.eachColumn}>
+          <p className={skillsStyles.columnTextContainer}>
+            <span className={skillsStyles.columnText}>Collaboration</span>
           </p>
-          <p style={styles.oneSkill}>Kanban board (Agile)</p>
-          <p style={styles.oneSkill}>Agile</p>
-          <p style={styles.oneSkill}>Product Management Process</p>
-          <p style={styles.oneSkill}>Product Marketing</p>
+          <p className={skillsStyles.oneSkill}>Kanban board (Agile)</p>
+          <p className={skillsStyles.oneSkill}>Agile</p>
+          <p className={skillsStyles.oneSkill}>Product Management Process</p>
+          <p className={skillsStyles.oneSkill}>Product Marketing</p>
         </div>
       </div>
     </>
   )
 }
 
-const styles = {
-  container: {
-    display: "flex",
-    flexWrap: "wrap",
-    flexDirection: "row",
-    justifyContent: "space-around",
-  },
-  eachColumn: {
-    color: `#2d3748`,
-    marginTop: `1rem`,
-    marginBottom: `1rem`,
-    width: "140px",
-    marginRight: "20px",
-  },
-  eachColumnPhone: {
-    color: `#2d3748`,
-    marginTop: `1rem`,
-    marginBottom: `1rem`,
-    width: "100%",
-    marginRight: "20px",
-  },
-  columnTextContainer: {
-    marginBottom: "0.3em",
-  },
-  columnText: {
-    fontWeight: "bold",
-  },
-  oneSkill: {
-    color: `#5F6C80`,
-    fontSize: "0.9em",
-  },
-}
+// const skills = {
+//   container: {
+//     display: "flex",
+//     flexWrap: "wrap",
+//     flexDirection: "row",
+//     justifyContent: "space-around",
+//   },
+//   eachColumn: {
+//     color: `#2d3748`,
+//     marginTop: `1rem`,
+//     marginBottom: `1rem`,
+//     width: "140px",
+//     marginRight: "20px",
+//   },
+//   eachColumnPhone: {
+//     color: `#2d3748`,
+//     marginTop: `1rem`,
+//     marginBottom: `1rem`,
+//     width: "100%",
+//     marginRight: "20px",
+//   },
+//   columnTextContainer: {
+//     marginBottom: "0.3em",
+//   },
+//   columnText: {
+//     fontWeight: "bold",
+//   },
+//   oneSkill: {
+//     color: `#5F6C80`,
+//     fontSize: "0.9em",
+//   },
+// }
 
 export default Skills
