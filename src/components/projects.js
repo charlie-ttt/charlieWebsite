@@ -48,21 +48,4 @@ const Projects = () => {
   )
 }
 
-// const styles = {
-//   eachProject: {
-//     color: `#2d3748`,
-//     marginTop: `1rem`,
-//     marginBottom: `1rem`,
-//   },
-//   projectTitle: {
-//     fontWeight: "bold",
-//   },
-//   dateStamp: {
-//     color: `#5F6C80`,
-//     fontSize: "0.8em",
-//     paddingTop: `0.2rem`,
-//     paddingBottom: `0.4rem`,
-//   },
-// }
-
 export default Projects

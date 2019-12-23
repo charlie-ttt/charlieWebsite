@@ -65,37 +65,4 @@ const Skills = () => {
   )
 }
 
-// const skills = {
-//   container: {
-//     display: "flex",
-//     flexWrap: "wrap",
-//     flexDirection: "row",
-//     justifyContent: "space-around",
-//   },
-//   eachColumn: {
-//     color: `#2d3748`,
-//     marginTop: `1rem`,
-//     marginBottom: `1rem`,
-//     width: "140px",
-//     marginRight: "20px",
-//   },
-//   eachColumnPhone: {
-//     color: `#2d3748`,
-//     marginTop: `1rem`,
-//     marginBottom: `1rem`,
-//     width: "100%",
-//     marginRight: "20px",
-//   },
-//   columnTextContainer: {
-//     marginBottom: "0.3em",
-//   },
-//   columnText: {
-//     fontWeight: "bold",
-//   },
-//   oneSkill: {
-//     color: `#5F6C80`,
-//     fontSize: "0.9em",
-//   },
-// }
-
 export default Skills
