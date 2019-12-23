@@ -6,20 +6,16 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Projects from "../components/projects"
+import Skills from "../components/skills"
 
 const IndexPage = props => (
   <Layout>
     {console.log("props.data", props.data)}
     <SEO title="Charlie Thanaphansin" />
+
+    {/* ----------------- Starting Main Area Section ---------------------- */}
     <div style={styles.mainArea}>
-      <div
-        style={{
-          width: `130px`,
-          height: `130px`,
-          marginBottom: `1.45rem`,
-          alignSelf: `center`,
-        }}
-      >
+      <div style={styles.profilePicContainer}>
         <div style={styles.circle}>
           <Img
             fluid={props.data.profilePic.childImageSharp.fluid}
@@ -33,21 +29,29 @@ const IndexPage = props => (
       </div>
 
       <p>
-        I'm Lupin - currently teaching "Defense against the Dark Arts" at
-        Hogwarts, Great Britain. I recently published a book called Those nasty
-        Dementors. It teaches everything you need to know about defending
-        against Dementors.
+        I'm Charlie - a software engineer currently working on translating cool
+        new ideas into applications.
       </p>
+      <div style={styles.iconContainerStyle}>
+        <a href="https://github.com/charlie-ttt">
+          <img src={`../github.png`} style={styles.iconStyle} />
+        </a>
+        <a href="https://www.linkedin.com/in/cthanaphansin/">
+          <img src={`../linkedin.png`} style={styles.iconStyle} />
+        </a>
+      </div>
     </div>
+    {/* ----------------------- Ending Main Area Section ------------------ */}
 
-    {/* ------------------------- Project Section ------------------------ */}
     <div style={styles.sectionDivide}>
       <Projects />
     </div>
-    {/* ------------------------ Project Section ------------------------ */}
+    <div style={styles.sectionDivide}>
+      <Skills />
+    </div>
 
     <div style={styles.sectionDivide}>
-      <h3>Work Experiences</h3>
+      <h3></h3>
     </div>
 
     <Link to="/page-2/">Go to page 2</Link>
@@ -78,6 +82,22 @@ const styles = {
     display: `flex`,
     justifyContent: `center`,
     alignItems: `center`,
+  },
+  profilePicContainer: {
+    width: `130px`,
+    height: `130px`,
+    marginBottom: `1.45rem`,
+    alignSelf: `center`,
+  },
+  iconContainerStyle: {
+    display: "flex",
+    marginTop: "10px",
+    justifyContent: "center",
+  },
+  iconStyle: {
+    height: "20px",
+    width: "20px",
+    margin: "10px 10px 10px 10px",
   },
 }
 
