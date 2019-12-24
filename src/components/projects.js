@@ -35,8 +35,25 @@ const Projects = () => {
           Drunken Wheel - a mobile first gaming application; it is meant to be
           played with a group of people.
         </p>
+        {/* <div className={projectsStyles.categoryTagContainer}>
+          <a href="#" className={projectsStyles.tryButton}>
+            Try
+          </a>
+        </div> */}
         <div className={projectsStyles.categoryTagContainer}>
-          <p className={projectsStyles.dateStamp}>12.10.2019</p>
+          <p className={projectsStyles.dateStamp}>12.2019</p>
+          <a
+            href="https://drunkenwheel.herokuapp.com/"
+            className={projectsStyles.tryButton}
+          >
+            Try
+          </a>
+          <a
+            href="https://github.com/Ice-cream-cone/drinkinggame"
+            className={projectsStyles.tryButton}
+          >
+            GitHub
+          </a>
           {DrunkenWheelTags.map(tag => (
             <p className={projectsStyles.categoryTag}>{tag}</p>
           ))}
@@ -49,7 +66,25 @@ const Projects = () => {
           boats, fishing fish, and crushing your opposition
         </p>
         <div className={projectsStyles.categoryTagContainer}>
-          <p className={projectsStyles.dateStamp}>12.10.2019</p>
+          <p className={projectsStyles.dateStamp}>11.2019</p>
+          <a
+            href="http://kingfishergame.herokuapp.com/"
+            className={projectsStyles.tryButton}
+          >
+            Try
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=NzziqQpTM9k&feature=youtu.be"
+            className={projectsStyles.tryButton}
+          >
+            YouTube
+          </a>
+          <a
+            href="https://github.com/kingfisherio/Fishsims"
+            className={projectsStyles.tryButton}
+          >
+            GitHub
+          </a>
           {KingFisherTags.map(tag => (
             <p className={projectsStyles.categoryTag}>{tag}</p>
           ))}
@@ -62,7 +97,19 @@ const Projects = () => {
           items using React Native and USDA Food/Nutrition Database
         </p>
         <div className={projectsStyles.categoryTagContainer}>
-          <p className={projectsStyles.dateStamp}>12.10.2019</p>
+          <p className={projectsStyles.dateStamp}>10.2019</p>
+          <a
+            href="https://youtu.be/arxMcmqJ2R0"
+            className={projectsStyles.tryButton}
+          >
+            YouTube
+          </a>
+          <a
+            href="https://github.com/charlie-ttt/ProductReview"
+            className={projectsStyles.tryButton}
+          >
+            GitHub
+          </a>
           {ProductReviewsTags.map(tag => (
             <p className={projectsStyles.categoryTag}>{tag}</p>
           ))}
@@ -75,7 +122,19 @@ const Projects = () => {
           stack, Bootstrap, Mocha, and Chai
         </p>
         <div className={projectsStyles.categoryTagContainer}>
-          <p className={projectsStyles.dateStamp}>12.10.2019</p>
+          <p className={projectsStyles.dateStamp}>10.2019</p>
+          <a
+            href="https://granny-grace.herokuapp.com/"
+            className={projectsStyles.tryButton}
+          >
+            Try
+          </a>
+          <a
+            href="https://github.com/GrannyGrace/GrannyGrace"
+            className={projectsStyles.tryButton}
+          >
+            GitHub
+          </a>
           {GrannyGraceTags.map(tag => (
             <p className={projectsStyles.categoryTag}>{tag}</p>
           ))}

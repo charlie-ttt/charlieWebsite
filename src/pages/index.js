@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -10,6 +10,7 @@ import Skills from "../components/skills"
 import Education from "../components/education"
 
 const IndexPage = props => {
+  const [showAll, setShowAll] = useState(false)
   return (
     <Layout>
       {console.log("props.data", props.data)}
@@ -32,9 +33,9 @@ const IndexPage = props => {
         <p style={styles.bioText}>
           I'm Charlie - I'm a full stack software engineer and I love to build
           browser and native phone applications for fun. Currently based in
-          Chicago, IL. Feel free to checkout my projects on Github below or
-          contact me via ✉️cthanap@gmail.com
+          Chicago, IL. Feel free to checkout my projects on Github below.
         </p>
+        <p>Or contact me via ✉️cthanap@gmail.com</p>
         <div style={styles.iconContainerStyle}>
           <a href="https://github.com/charlie-ttt">
             <img src={`../github.png`} style={styles.iconStyle} />
@@ -45,19 +46,29 @@ const IndexPage = props => {
         </div>
       </div>
       {/* ----------------------- Ending Main Area Section ------------------ */}
-
-      <div style={styles.sectionDivide}>
-        <Projects />
+      <div style={styles.showAllButtonContainer}>
+        <button
+          type="button"
+          onClick={() => setShowAll(!showAll)}
+          style={styles.showAllButton}
+        >
+          See All
+        </button>
       </div>
-      <div style={styles.sectionDivide}>
-        <Skills />
-      </div>
+      {showAll ? (
+        <>
+          <div style={styles.sectionDivide}>
+            <Projects />
+          </div>
+          <div style={styles.sectionDivide}>
+            <Skills />
+          </div>
 
-      <div style={styles.sectionDivide}>
-        <Education />
-      </div>
-
-      {/* <Link to="/page-2/">Go to page 2</Link> */}
+          <div style={styles.sectionDivide}>
+            <Education />
+          </div>
+        </>
+      ) : null}
     </Layout>
   )
 }
@@ -106,6 +117,15 @@ const styles = {
   },
   bioText: {
     fontSize: "1.1em",
+  },
+  showAllButtonContainer: {
+    display: "flex",
+    justifyContent: "center",
+  },
+  showAllButton: {
+    backgroundColor: "transparent",
+    padding: "3px 15px",
+    // border: "none",
   },
 }
 

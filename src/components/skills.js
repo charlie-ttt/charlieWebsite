@@ -55,7 +55,7 @@ const Skills = () => {
           <p className={skillsStyles.columnTextContainer}>
             <span className={skillsStyles.columnText}>Collaboration</span>
           </p>
-          <p className={skillsStyles.oneSkill}>Kanban board (Agile)</p>
+          <p className={skillsStyles.oneSkill}>Kanban (Agile)</p>
           <p className={skillsStyles.oneSkill}>Agile</p>
           <p className={skillsStyles.oneSkill}>Product Management Process</p>
           <p className={skillsStyles.oneSkill}>Product Marketing</p>
