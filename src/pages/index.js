@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Projects from "../components/projects"
 import Skills from "../components/skills"
+import Education from "../components/education"
 
 const IndexPage = props => {
   return (
@@ -53,7 +54,7 @@ const IndexPage = props => {
       </div>
 
       <div style={styles.sectionDivide}>
-        <h3></h3>
+        <Education />
       </div>
 
       {/* <Link to="/page-2/">Go to page 2</Link> */}

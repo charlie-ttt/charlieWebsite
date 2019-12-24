@@ -1,0 +1,36 @@
+.outerContainer {
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+.eachEducation {
+  color: #2d3748;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+}
+.firstLine {
+  color: #2d3748;
+  /* margin-top: 2rem;
+  margin-bottom: 1rem; */
+  display: flex;
+  justify-content: flex-start;
+}
+.secondLine {
+  color: #2d3748;
+  /* margin-top: 2rem;
+  margin-bottom: 1rem; */
+  display: flex;
+  justify-content: flex-start;
+}
+.educationTitle {
+  font-weight: bold;
+}
+
+.locationContainer {
+  padding-left: 1em;
+}
+.locationText {
+  font-weight: bold;
+}

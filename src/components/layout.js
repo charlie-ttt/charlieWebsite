@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer style={{ display: "flex", justifyContent: "center" }}>
           <p>© {new Date().getFullYear()}, Charlie Thanaphansin</p>
         </footer>
       </div>
