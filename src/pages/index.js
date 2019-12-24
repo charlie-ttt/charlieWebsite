@@ -28,9 +28,11 @@ const IndexPage = props => {
         <div style={styles.mainText}>
           <h1 style={{ fontWeight: "bold", fontSize: "40px" }}>Hi.</h1>
         </div>
-        <p>
-          I'm Charlie - I love building applications and software. Currently
-          working on translating cool new ideas into applications.
+        <p style={styles.bioText}>
+          I'm Charlie - I'm a full stack software engineer and I love to build
+          browser and native phone applications for fun. Currently based in
+          Chicago, IL. Feel free to checkout my projects on Github below or
+          contact me via ✉️cthanap@gmail.com
         </p>
         <div style={styles.iconContainerStyle}>
           <a href="https://github.com/charlie-ttt">
@@ -61,14 +63,14 @@ const IndexPage = props => {
 
 const styles = {
   mainArea: {
-    paddingTop: "120px",
+    paddingTop: "30px",
     paddingBottom: "120px",
     marginBottom: "40px",
     display: "flex",
     flexDirection: "column",
   },
   mainText: {
-    paddingTop: "20px",
+    paddingTop: "5px",
     paddingBottom: "20px",
   },
   sectionDivide: {
@@ -87,7 +89,7 @@ const styles = {
   profilePicContainer: {
     width: `170px`,
     height: `130px`,
-    marginBottom: `10rem`,
+    marginBottom: `3rem`,
     alignSelf: `center`,
   },
   iconContainerStyle: {
@@ -97,9 +99,12 @@ const styles = {
     paddingTop: `2rem`,
   },
   iconStyle: {
-    height: "20px",
-    width: "20px",
+    height: "23px",
+    width: "23px",
     margin: "10px 10px 10px 10px",
+  },
+  bioText: {
+    fontSize: "1.1em",
   },
 }
 

@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
     <>
       <div
         style={{
-          position: "fixed",
+          // position: "fixed",
           width: "100%",
           backgroundColor: "#fafae1",
           zIndex: "999",
