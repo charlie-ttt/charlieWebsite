@@ -31,11 +31,11 @@ const IndexPage = props => {
           <h1 style={{ fontWeight: "bold", fontSize: "40px" }}>Hi.</h1>
         </div>
         <p style={styles.bioText}>
-          I'm Charlie - I'm a full stack software engineer and I love to build
-          browser and native phone applications for fun. Currently based in
+          I'm Charlie - I'm a full stack software engineer and I love building
+          browser and native mobile applications for fun. Currently based in
           Chicago, IL. Feel free to checkout my projects on Github below.
         </p>
-        <p>Or contact me via ✉️cthanap@gmail.com</p>
+        <p>Contact me via ✉️cthanap@gmail.com</p>
         <div style={styles.iconContainerStyle}>
           <a href="https://github.com/charlie-ttt">
             <img src={`../github.png`} style={styles.iconStyle} />
