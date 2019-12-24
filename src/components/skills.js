@@ -13,7 +13,7 @@ import skillsStyles from "../css/skills.module.css"
 
 const Skills = () => {
   return (
-    <>
+    <div className={skillsStyles.outerContainer}>
       <h3>Skills</h3>
       <div className={skillsStyles.container}>
         <div className={skillsStyles.eachColumn}>
@@ -61,7 +61,7 @@ const Skills = () => {
           <p className={skillsStyles.oneSkill}>Product Marketing</p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -1,6 +1,10 @@
+.outerContainer {
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
 .eachProject {
   color: #2d3748;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 .projectTitle {
@@ -9,6 +13,25 @@
 .dateStamp {
   color: #5f6c80;
   font-size: 0.8em;
-  padding-top: 0.2rem;
-  padding-bottom: 0.4rem;
+  padding: 0 5px;
+  margin-right: 1em;
+  /* padding-top: 0.2rem;
+  padding-bottom: 0.4rem; */
+}
+.categoryTagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5px;
+  /* justify-content: center; */
+}
+.categoryTag {
+  background-color: rgba(232, 232, 232, 0.5); /* Set the background color */
+  color: #828383;
+  border-radius: 3px; /* Add some roundness */
+  border: 0.5px #949494 solid; /* Add a border */
+  padding: 0 5px;
+  margin: 3px 5px 0 2.5px;
+  display: inline;
+  font-size: 0.8em;
 }
