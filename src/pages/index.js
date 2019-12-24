@@ -76,7 +76,7 @@ const IndexPage = props => {
 const styles = {
   mainArea: {
     paddingTop: "30px",
-    paddingBottom: "120px",
+    paddingBottom: "90px",
     marginBottom: "40px",
     display: "flex",
     flexDirection: "column",
@@ -121,11 +121,11 @@ const styles = {
   showAllButtonContainer: {
     display: "flex",
     justifyContent: "center",
+    paddingBottom: "3em",
   },
   showAllButton: {
     backgroundColor: "transparent",
     padding: "3px 15px",
-    // border: "none",
   },
 }
 
