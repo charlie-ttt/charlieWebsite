@@ -26,8 +26,17 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <Navbar />
+      <div
+        style={{
+          position: "fixed",
+          width: "100%",
+          backgroundColor: "#fafae1",
+          zIndex: "999",
+        }}
+      >
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <Navbar />
+      </div>
       <div
         style={{
           margin: `0 auto`,

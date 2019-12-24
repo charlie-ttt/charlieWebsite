@@ -37,6 +37,7 @@ const styles = {
     flexDirection: "row",
     justifyContent: "flex-start",
     borderBottom: `1px solid #dbd8d8`,
+    // position: 'fixed'
     // width: `80%`,
   },
   eachSection: {

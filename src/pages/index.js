@@ -28,7 +28,6 @@ const IndexPage = props => {
         <div style={styles.mainText}>
           <h1 style={{ fontWeight: "bold", fontSize: "40px" }}>Hi.</h1>
         </div>
-
         <p>
           I'm Charlie - I love building applications and software. Currently
           working on translating cool new ideas into applications.
@@ -62,8 +61,8 @@ const IndexPage = props => {
 
 const styles = {
   mainArea: {
-    paddingTop: "20px",
-    paddingBottom: "20px",
+    paddingTop: "120px",
+    paddingBottom: "120px",
     marginBottom: "40px",
     display: "flex",
     flexDirection: "column",
@@ -86,15 +85,16 @@ const styles = {
     alignItems: `center`,
   },
   profilePicContainer: {
-    width: `130px`,
+    width: `170px`,
     height: `130px`,
-    marginBottom: `1.45rem`,
+    marginBottom: `10rem`,
     alignSelf: `center`,
   },
   iconContainerStyle: {
     display: "flex",
     marginTop: "10px",
     justifyContent: "center",
+    paddingTop: `2rem`,
   },
   iconStyle: {
     height: "20px",
