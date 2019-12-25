@@ -1,0 +1,53 @@
+.mainArea {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.mainText {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.sectionDivide {
+  border-top: 1px solid #dbd8d8;
+  padding-top: 0.6rem;
+}
+.circle {
+  border: 1px solid #dbd8d8;
+  height: 170px;
+  border-radius: 50%;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profilePicContainer {
+  width: 170px;
+  height: 130px;
+  margin-bottom: 3rem;
+  align-self: center;
+}
+.iconContainerStyle {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.iconStyle {
+  height: 23px;
+  width: 23px;
+  margin: 10px 10px 10px 10px;
+}
+.bioText {
+  font-size: 1.1em;
+}
+.showAllButtonContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+.showAllButton {
+  background-color: transparent;
+  padding: 3px 15px;
+}
