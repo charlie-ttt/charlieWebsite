@@ -32,15 +32,15 @@ const IndexPage = props => {
         </div>
         <p style={styles.bioText}>
           I'm Charlie - I'm a full stack software engineer and I love building
-          browser and native mobile applications for fun. Currently based in
-          Chicago, IL. Feel free to checkout my projects on Github below.
+          browser and mobile applications for fun. Currently based in Chicago,
+          IL. Feel free to checkout my projects on Github below.
         </p>
         <p>Contact me via ✉️cthanap@gmail.com</p>
         <div style={styles.iconContainerStyle}>
-          <a href="https://github.com/charlie-ttt">
+          <a href="https://github.com/charlie-ttt" target="_blank">
             <img src={`../github.png`} style={styles.iconStyle} />
           </a>
-          <a href="https://www.linkedin.com/in/cthanaphansin/">
+          <a href="https://www.linkedin.com/in/cthanaphansin/" target="_blank">
             <img src={`../linkedin.png`} style={styles.iconStyle} />
           </a>
         </div>

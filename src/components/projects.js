@@ -30,35 +30,6 @@ const Projects = () => {
   return (
     <div className={projectsStyles.outerContainer}>
       <h3>Projects</h3>
-      <div className={projectsStyles.eachProject}>
-        <p className={projectsStyles.projectTitle}>
-          Drunken Wheel - a mobile first gaming application; it is meant to be
-          played with a group of people.
-        </p>
-        {/* <div className={projectsStyles.categoryTagContainer}>
-          <a href="#" className={projectsStyles.tryButton}>
-            Try
-          </a>
-        </div> */}
-        <div className={projectsStyles.categoryTagContainer}>
-          <p className={projectsStyles.dateStamp}>12.2019</p>
-          <a
-            href="https://drunkenwheel.herokuapp.com/"
-            className={projectsStyles.tryButton}
-          >
-            Try
-          </a>
-          <a
-            href="https://github.com/Ice-cream-cone/drinkinggame"
-            className={projectsStyles.tryButton}
-          >
-            GitHub
-          </a>
-          {DrunkenWheelTags.map(tag => (
-            <p className={projectsStyles.categoryTag}>{tag}</p>
-          ))}
-        </div>
-      </div>
 
       <div className={projectsStyles.eachProject}>
         <p className={projectsStyles.projectTitle}>
@@ -70,18 +41,21 @@ const Projects = () => {
           <a
             href="http://kingfishergame.herokuapp.com/"
             className={projectsStyles.tryButton}
+            target="_blank"
           >
             Try
           </a>
           <a
             href="https://www.youtube.com/watch?v=NzziqQpTM9k&feature=youtu.be"
             className={projectsStyles.tryButton}
+            target="_blank"
           >
             YouTube
           </a>
           <a
             href="https://github.com/kingfisherio/Fishsims"
             className={projectsStyles.tryButton}
+            target="_blank"
           >
             GitHub
           </a>
@@ -101,12 +75,14 @@ const Projects = () => {
           <a
             href="https://youtu.be/arxMcmqJ2R0"
             className={projectsStyles.tryButton}
+            target="_blank"
           >
             YouTube
           </a>
           <a
             href="https://github.com/charlie-ttt/ProductReview"
             className={projectsStyles.tryButton}
+            target="_blank"
           >
             GitHub
           </a>
@@ -126,16 +102,50 @@ const Projects = () => {
           <a
             href="https://granny-grace.herokuapp.com/"
             className={projectsStyles.tryButton}
+            target="_blank"
           >
             Try
           </a>
           <a
             href="https://github.com/GrannyGrace/GrannyGrace"
             className={projectsStyles.tryButton}
+            target="_blank"
           >
             GitHub
           </a>
           {GrannyGraceTags.map(tag => (
+            <p className={projectsStyles.categoryTag}>{tag}</p>
+          ))}
+        </div>
+      </div>
+
+      <div className={projectsStyles.eachProject}>
+        <p className={projectsStyles.projectTitle}>
+          Drunken Wheel - a mobile first gaming application; it is meant to be
+          played with a group of people.
+        </p>
+        {/* <div className={projectsStyles.categoryTagContainer}>
+          <a href="#" className={projectsStyles.tryButton}>
+            Try
+          </a>
+        </div> */}
+        <div className={projectsStyles.categoryTagContainer}>
+          <p className={projectsStyles.dateStamp}>12.2019</p>
+          <a
+            href="https://drunkenwheel.herokuapp.com/"
+            className={projectsStyles.tryButton}
+            target="_blank"
+          >
+            Try
+          </a>
+          <a
+            href="https://github.com/Ice-cream-cone/drinkinggame"
+            className={projectsStyles.tryButton}
+            target="_blank"
+          >
+            GitHub
+          </a>
+          {DrunkenWheelTags.map(tag => (
             <p className={projectsStyles.categoryTag}>{tag}</p>
           ))}
         </div>
