@@ -3,7 +3,7 @@ import React from "react"
 
 const Navbar = () => (
   <div style={styles.container}>
-    <div>
+    {/* <div>
       <h1 style={{ marginRight: "20px" }}>
         <Link to="/" style={styles.eachSection}>
           About
@@ -23,8 +23,7 @@ const Navbar = () => (
           Contact
         </Link>
       </h1>
-    </div>
-    <div style={styles.horizontalLine}></div>
+    </div> */}
   </div>
 )
 
@@ -32,7 +31,7 @@ const styles = {
   container: {
     margin: `0 auto`,
     maxWidth: 960,
-    padding: `0 1.0875rem 0.5rem 1.0875rem`,
+    padding: `0 1.0875rem 1.5rem 1.0875rem`,
     display: "flex",
     flexDirection: "row",
     justifyContent: "flex-start",
@@ -45,10 +44,6 @@ const styles = {
     textDecoration: `none`,
     fontSize: "15px",
     color: "#5F6C80",
-  },
-  horizontalLine: {
-    // borderBottom: `1px solid #dbd8d8`,
-    // width: `80%`,
   },
 }
 

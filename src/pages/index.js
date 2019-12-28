@@ -41,7 +41,9 @@ const IndexPage = props => {
           browser and mobile applications for fun. Currently based in Chicago,
           IL. Feel free to checkout my projects on Github below.
         </p>
-        <p>Contact me via ✉️cthanap@gmail.com</p>
+        <p className={indexStyles.bioText}>
+          Contact me via ✉️cthanap@gmail.com
+        </p>
         <div className={indexStyles.iconContainerStyle}>
           <a href="https://github.com/charlie-ttt" target="_blank">
             <img src={`../github.png`} className={indexStyles.iconStyle} />
