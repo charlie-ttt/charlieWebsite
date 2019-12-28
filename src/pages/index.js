@@ -16,7 +16,7 @@ const IndexPage = props => {
   return (
     <Layout>
       {console.log("props.data", props.data)}
-      <SEO title="Charlie Thanaphansin" />
+      <SEO title="Main" />
 
       {/* ----------------- Starting Main Area Section ---------------------- */}
       <div className={indexStyles.mainArea}>
@@ -58,7 +58,7 @@ const IndexPage = props => {
           onClick={() => setShowAll(!showAll)}
           className={indexStyles.showAllButton}
         >
-          See All
+          {showAll ? "Hide" : "See All"}
         </button>
       </div>
       {showAll ? (
