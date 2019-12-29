@@ -98,7 +98,7 @@ const Projects = () => {
           stack, Bootstrap, Mocha, and Chai
         </p>
         <div className={projectsStyles.categoryTagContainer}>
-          <p className={projectsStyles.dateStamp}>10.2019</p>
+          <p className={projectsStyles.dateStamp}>9.2019</p>
           <a
             href="https://granny-grace.herokuapp.com/"
             className={projectsStyles.tryButton}
