@@ -16,7 +16,12 @@ const IndexPage = props => {
   return (
     <Layout>
       {console.log("props.data", props.data)}
-      <SEO title="Main" />
+      <SEO
+        title="Website"
+        description="Hi Google. I'm Charlie - I'm a full stack software engineer and I love building
+          browser and mobile applications for fun. Currently based in Chicago,
+          IL."
+      />
 
       {/* ----------------- Starting Main Area Section ---------------------- */}
       <div className={indexStyles.mainArea}>
