@@ -4,8 +4,9 @@
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
-<h1 align="center">
-  🦦🦦🦦 Personal website developed with Gatsby to optimize page speed and SEO 🦦🦦🦦
-</h1>
+
+### 🦦
+
+## Personal website developed with Gatsby to optimize page speed and SEO
 
 <!-- AUTO-GENERATED-CONTENT:END -->
