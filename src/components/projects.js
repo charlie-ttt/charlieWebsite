@@ -33,8 +33,9 @@ const Projects = () => {
 
       <div className={projectsStyles.eachProject}>
         <p className={projectsStyles.projectTitle}>
-          King Fisher - a real-time multiplayer strategic IO game about buying
-          boats, fishing fish, and crushing your opposition
+          King Fisher - A real-time multiplayer browser game about expanding
+          your fishing empire by strategically expanding your fleet and earning
+          the most dubloons by fishing the most valuable fish
         </p>
         <div className={projectsStyles.categoryTagContainer}>
           <p className={projectsStyles.dateStamp}>11.2019</p>
