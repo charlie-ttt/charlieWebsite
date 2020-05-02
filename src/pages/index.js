@@ -11,6 +11,8 @@ import Education from "../components/education"
 
 import indexStyles from "../css/index.module.css"
 
+//npm run build && npm run deploy   to deploy on AWS
+
 const IndexPage = props => {
   const [showAll, setShowAll] = useState(false)
   return (

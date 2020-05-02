@@ -8,6 +8,6 @@
   🦦🦦🦦
 </h1>
 
-## Personal website developed with Gatsby to optimize page speed and SEO
+## Personal website developed with Gatsby
 
 <!-- AUTO-GENERATED-CONTENT:END -->
