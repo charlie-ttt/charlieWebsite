@@ -9,5 +9,5 @@
 </h1>
 
 ## Personal website developed with Gatsby
-
+- to deploy run: `npm run build && npm run deploy`
 <!-- AUTO-GENERATED-CONTENT:END -->
