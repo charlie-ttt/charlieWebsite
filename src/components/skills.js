@@ -20,10 +20,12 @@ const Skills = () => {
           <p className={skillsStyles.columnTextContainer}>
             <span className={skillsStyles.columnText}>LANGUAGES</span>
           </p>
-          <p className={skillsStyles.oneSkill}>JavaScript (ES6)</p>
+          <p className={skillsStyles.oneSkill}>TypeScript</p>
+          <p className={skillsStyles.oneSkill}>JavaScript</p>
+          <p className={skillsStyles.oneSkill}>Python</p>
+          <p className={skillsStyles.oneSkill}>SQL</p>
           <p className={skillsStyles.oneSkill}>HTML</p>
           <p className={skillsStyles.oneSkill}>CSS</p>
-          <p className={skillsStyles.oneSkill}>SQL</p>
         </div>
         <div className={skillsStyles.eachColumn}>
           <p className={skillsStyles.columnTextContainer}>
@@ -33,21 +35,18 @@ const Skills = () => {
           <p className={skillsStyles.oneSkill}>Redux</p>
           <p className={skillsStyles.oneSkill}>Node.js</p>
           <p className={skillsStyles.oneSkill}>Express.js</p>
-          <p className={skillsStyles.oneSkill}>Socket.IO</p>
-          <p className={skillsStyles.oneSkill}>Sequelize</p>
-          <p className={skillsStyles.oneSkill}>PostgreSQL</p>
-          <p className={skillsStyles.oneSkill}>React Native</p>
+          <p className={skillsStyles.oneSkill}>Next JS</p>
           <p className={skillsStyles.oneSkill}>Gatsby JS</p>
-          <p className={skillsStyles.oneSkill}>PixiJS</p>
+          <p className={skillsStyles.oneSkill}>Sequelize</p>
+          <p className={skillsStyles.oneSkill}>React Native</p>
         </div>
         <div className={skillsStyles.eachColumn}>
           <p className={skillsStyles.columnTextContainer}>
             <span className={skillsStyles.columnText}>TOOLS</span>
           </p>
           <p className={skillsStyles.oneSkill}>Git & Github</p>
-          <p className={skillsStyles.oneSkill}>Postman</p>
-          <p className={skillsStyles.oneSkill}>Bootstrap</p>
-          <p className={skillsStyles.oneSkill}>React-Bootstrap</p>
+          <p className={skillsStyles.oneSkill}>Docker</p>
+          <p className={skillsStyles.oneSkill}>Material UI</p>
           <p className={skillsStyles.oneSkill}>Semantic UI</p>
           <p className={skillsStyles.oneSkill}>NativeBase</p>
         </div>
@@ -55,9 +54,9 @@ const Skills = () => {
           <p className={skillsStyles.columnTextContainer}>
             <span className={skillsStyles.columnText}>Collaboration</span>
           </p>
+          <p className={skillsStyles.oneSkill}>Jira</p>
           <p className={skillsStyles.oneSkill}>Kanban (Agile)</p>
           <p className={skillsStyles.oneSkill}>Agile</p>
-          <p className={skillsStyles.oneSkill}>Product Management Process</p>
           <p className={skillsStyles.oneSkill}>Product Marketing</p>
         </div>
       </div>
