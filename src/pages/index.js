@@ -21,8 +21,7 @@ const IndexPage = props => {
       <SEO
         title="Website"
         description="Hi Google. I'm Charlie - I'm a full stack software engineer and I love building
-          browser and mobile applications for fun. Currently based in Chicago,
-          IL."
+          browser and mobile applications for fun. Currently based in Bangkok, Thailand"
       />
 
       {/* ----------------- Starting Main Area Section ---------------------- */}
